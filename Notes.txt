@@ -1,0 +1,21 @@
+Database
+1. See what tables and columns we need
+2. Add dummy data
+
+Create
+1. User needs to be logged in to make a post
+2. Check if data is text
+3. Check for empty fields
+4. If checks are met, do a request and post
+
+Read
+1. Read data from database
+
+Update
+1. Same as create, but we need values on the post
+2. Only edit users own post
+3. Check if values are not the same or empty
+
+Delete
+1. Delete button that does a database request
+2. Check if user id is equal to user id of post creation
